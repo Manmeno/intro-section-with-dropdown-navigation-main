@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Epilogue', sans-serif;
+}
+body{
+  color: hsl(0, 0%, 98%);
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  padding: 20px 20px;
+}
+.snap{
+  Font-size : 28px ;
+  text-decoration: none;
+  font-weight: 700;
+  color: hsl(0, 0%, 8%);
+  padding-right: 20px;
+}
+.close-icon{
+  display: none;
+  margin-right: 15px;
+}
+.logo{
+  margin-right: 15px;
+}
+.Features, .Careers, .Company, .About,.Login, .Register{
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+  padding-left: 18px;
+  font-size: small;
+}
+.Login, .Careers{
+  padding-right: 25px;
+}
+.Register{
+  padding: 0 30px;
+  padding: 9px;
+  border-radius: 9px;
+  border: 3px solid hsl(0, 0%, 41%);
+}
+.arrowDown, .arrowDown2{
+  padding-right: 20px;
+  cursor: pointer;
+}
+.arrowUp , .arrowUp2{
+  display: none;
+  cursor: pointer;
+  padding-right: 20px;
+}
+.text{
+  color: hsl(0, 0%, 8%);
+  font-weight: 700;
+  font-size: 70px;
+  padding: 31px 0;
+  padding-bottom: 31px;
+}
+.text2{
+  color: hsl(0, 0%, 41%);
+  text-align: left;
+  font-size: small;
+  padding: 35px 0;
+}
+.btn{
+  background: hsl(0, 0%, 8%);
+  padding: 0 30px;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 9px;
+  color: hsl(0, 0%, 98%);
+  text-align: center;
+  margin: 40px 0;
+}
+.btn:hover{
+  background:  hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 8%);
+}
+.main{
+  display: flex;
+  width: 100%;
+  padding: 90px;
+  text-align: left;
+  justify-content: space-between;
+  align-items: center;
+}
+.submain{
+  padding-right: 170px;
+}
+.mainimg{
+  width: 570px;
+}
+.images{
+  padding: 140px 0 0 0;
+}
+.dropdown{
+  border: 1px solid hsl(0, 0%, 98%);
+  border-radius: 0.5rem;
+  box-shadow: hsl(0, 0%, 41%) 0px 0 30px;
+  width: 180px;
+  margin-top: 15px;
+  position: absolute;
+}
+.dropdown a{
+  display: none;
+  text-decoration: none;
+  padding: 8px 0;
+  margin: 3px;
+  color: hsl(0, 0%, 41%);
+}
+.iconReminders{
+  padding-left: 11px;
+}
+.iconPlanning{
+  padding-right: 5px;
+}
+.iconTodo, .iconCalendar, .iconReminders, .iconPlanning{
+  margin-right: 5px;
+}
+.dropdown1{
+  border: 1px solid hsl(0, 0%, 98%);
+  border-radius: 0.5rem;
+  box-shadow: hsl(0, 0%, 41%) 0px 0 30px;
+  width: 100px;
+  margin-top: 15px;
+  margin-left: 225px;
+  position: absolute;
+}
+.dropdown1 p{
+  display: none;
+  font-size: small;
+  color: hsl(0, 0%, 41%);
+  text-decoration: none;
+  padding: 8px 0;
+  margin: 3px;
+}
+.imgmobile{
+  display: none;
+}
+.iconMenu{
+  display: none;
+}
+#nav-Contanier{
+  display: none;
+}
+.nav-right{
+  display: none;
+}
+.nav-logo{
+  display: none;
+}
+.icon{
+  display: none;
+}
+@media(max-width:376px){
+.arrowDown{ 
+  display: none;
+}
+.arrowUp{
+  display: none;
+} 
+.iconTodo{
+  display: none;
+} 
+.iconCalendar{
+  display: none;
+}
+.iconReminders{
+  display: none;
+} 
+.iconPlanning{
+  display: none;
+}
+.Features{
+  display: none;
+} 
+.Company{
+  display: none;
+} 
+.arrowDown2{
+  display: none;
+} 
+.arrowUp2{
+  display: none;
+} 
+.dropdown1{
+  display: none;
+} 
+.Careers{
+  display: none;
+} 
+.About{
+  display: none;
+}
+.logindiv{
+  display: none;
+} 
+.submain2{
+  display: none;
+}
+.imgmobile{
+  display: block;
+  margin: 0;
+  width: 375px;
+  padding: 0 0 9px 0;
+  float: left;
+  text-align: left;
+}
+.submain{
+  display: block;
+  text-align: center;
+  padding: 0;
+  align-items: center;
+}
+.main{
+  display: block;
+  padding: 0;
+  text-align: center;
+}
+.text{
+  padding: 9px 0;
+  text-align: center;
+  font-size: xx-large;
+}
+.text2{
+  padding: 0;
+  text-align: center;
+}
+.btn{
+  margin: 20px 0 0 0;
+  cursor: pointer;
+}
+.iconMenu{
+  display: block;
+  cursor: pointer;
+}
+.images{
+  padding: 20px 0;
+}
+#nav-Contanier{
+  display: none;
+  background: hsl(0, 0%, 98%);
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 70%;
+  padding: 5rem 2rem;
+}
+.nav-links{
+  display: flex;
+  list-style: none;
+}
+.dropdown12{
+  display: none;
+}
+.nav-links a{
+  display: flex;
+  padding: 15px;
+  color: hsl(0, 0%, 41%);
+  cursor: pointer;
+  font-size: small;
+}
+.nav-links li p{
+  display: flex;
+  align-items: left;
+}
+.nav-logo{
+  z-index: 999;
+  display: flex;
+  cursor: pointer;
+}
+.arrow10{
+  height: 7px;
+  margin-top: 3px;
+  padding-left: 9px;
+}
+.arrow11{
+  height: 7px;
+  margin-top: 3px;
+  padding-left: 9px;
+  display: none;
+}
+.arrowDown11{
+  height: 7px;
+  margin-top: 3px;
+  padding-left: 9px;
+}
+.arrowUp12{
+  height: 7px;
+  margin-top: 3px;
+  padding-left: 9px;
+  display: none;
+}
+.dropdown21 p{
+  display: none;
+  padding: 5px;
+  color: hsl(0, 0%, 41%);
+  cursor: pointer;
+  font-size: small;
+  padding: 8px 0;
+  margin: 3px;
+  margin-left: 30px;
+}
+.Features10{
+  display: flex;
+}
+.iconTodo13, .iconCalendar14, .iconReminders15, .iconPlanning16{
+  padding-right: 10px;
+  margin-left: 20px;
+}
+#iconTodo13, #iconCalendar14, #iconReminders15, #iconPlanning16{
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+  padding: 8px 0;
+  margin: 3px;
+}
+.Careers12{
+  text-decoration: none;
+  padding: 10px;
+}
+.About12{
+  text-decoration: none;
+  padding: 10px;  
+}
+.Login12{
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+  font-size: small;
+  display: block;
+  margin: 18px 0;
+
+}
+.Register12{
+  margin-top: 10px;
+  padding: 0 30px;
+  padding: 9px;
+  border-radius: 9px;
+  border: 3px solid hsl(0, 0%, 41%);
+  color: hsl(0, 0%, 41%);
+  text-decoration: none;
+  font-size: small;
+  display: block;
+}
+}

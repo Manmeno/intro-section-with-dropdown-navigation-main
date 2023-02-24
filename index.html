@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<header class="header">
+  <nav class="navbar">
+    <div class="navBar">
+      <a href="#" class="snap">snap</a>
+      <a href="#" class="Features">Features</a>
+      <img src="images/icon-arrow-down.svg" alt="arrow" class="arrowDown" onclick="show()">
+      <img src="images/icon-arrow-up.svg" alt="arrow" class="arrowUp" onclick="hide()">
+      <nav class="dropdown">
+        <a href="#" id="iconTodo"> <img src="images/icon-todo.svg" alt="icon-todo" class="iconTodo"> Todo List</a>
+        <a href="#" id="iconCalendar"> <img src="images/icon-calendar.svg" alt="icon-calendar" class="iconCalendar"> Calendar</a>
+        <a href="#" id="iconReminders"> <img src="images/icon-reminders.svg" alt="icon-reminders" class="iconReminders"> Reminders</a>
+        <a href="#" id="iconPlanning"> <img src="images/icon-planning.svg" alt="icon-planning" class="iconPlanning"> Planning</a>
+        </nav>
+      <a href="#" class="Company">Company</a>
+      <img src="images/icon-arrow-down.svg" alt="arrow" class="arrowDown2" onclick="showinf()">
+      <img src="images/icon-arrow-up.svg" alt="arrowUp" class="arrowUp2" onclick="hideinf()">
+      <nav class="dropdown1">
+        <p class="dropdwoninf" id="dropdwoninf1">History</p>
+        <p class="dropdwoninf" id="dropdwoninf2">Our Team</p>
+        <p class="dropdwoninf" id="dropdwoninf3">Blog</p>
+      </nav>
+      <a href="#" class="Careers">Careers</a>
+      <a href="#" class="About">About</a>
+    </div>
+  </nav>
+  <div class="logindiv">
+    <a href="#" class="Login">Login</a>
+    <a href="#" class="Register">Register</a>
+  </div>
+
+
+
+
+
+  <div class="nav-logo">
+    <img src="images/icon-menu.svg" class="logo" alt="icon-menu" onclick="showdata()">
+    <img src="images/icon-close-menu.svg" class="close-icon" alt="icon-close-menu" onclick="hidedata()">
+    </div>
+  
+
+
+
+
+
+  <nav id="nav-Contanier">
+    <div class="nav-links">
+      <a href="#" class="Features">Features
+        <img src="images/icon-arrow-down.svg" alt="arrow" class="arrow10" onclick="showicon()">
+        <img src="images/icon-arrow-up.svg" alt="arrow" class="arrow11" onclick="hideicon()">
+      </a>
+      <nav class="dropdown12">
+        <a href="#" id="iconTodo13"> <img src="images/icon-todo.svg" alt="icon-todo" class="iconTodo13"> Todo List</a>
+        <a href="#" id="iconCalendar14"> <img src="images/icon-calendar.svg" alt="icon-calendar" class="iconCalendar14"> Calendar</a>
+        <a href="#" id="iconReminders15"> <img src="images/icon-reminders.svg" alt="icon-reminders" class="iconReminders15"> Reminders</a>
+        <a href="#" id="iconPlanning16"> <img src="images/icon-planning.svg" alt="icon-planning" class="iconPlanning16"> Planning</a>
+      </nav>
+      <a href="#" class="Company">Company
+        <img src="images/icon-arrow-down.svg" alt="arrow" class="arrowDown11" onclick="showp()">
+        <img src="images/icon-arrow-up.svg" alt="arrowUp" class="arrowUp12" onclick="hidep()">
+      </a>
+      <nav class="dropdown21">
+        <p class="dropdwoninf17" id="dropdwoninf11">History</p>
+        <p class="dropdwoninf18" id="dropdwoninf12">Our Team</p>
+        <p class="dropdwoninf19" id="dropdwoninf13">Blog</p>
+      </nav>
+      <a href="#" class="Careers12">Careers</a>
+      <a href="#" class="About12">About</a>
+    </div>
+    <div class="logindiv10">
+      <a href="#" class="Login12">Login</a>
+      <a href="#" class="Register12">Register</a>
+    </div>
+  </nav>
+</header>
+<section class="main">
+  <div>
+    <img src="images/image-hero-mobile.png" alt="image" class="imgmobile">
+  </div>
+  <div class="submain">
+    <p class="text">
+      Make  remote work
+    </p>
+    <p class="text2">
+      Get your team in sync, no matter your location. <br> 
+      Streamline processes, create team rituals, and <br>
+       watch productivity soar.
+    </p>
+    <input type="button" value="Learn more" class="btn">
+    <div class="images">
+      <img src="images/client-databiz.svg" alt="images">
+      <img src="images/client-audiophile.svg" alt="images">
+      <img src="images/client-meet.svg" alt="images">
+      <img src="images/client-maker.svg" alt="images">
+    </div>
+  </div>
+  <div class="submain2">
+    <img src="images/image-hero-desktop.png" alt="images" class="mainimg">
+  </div>
+</section>  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Mina Emad</a>.
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
